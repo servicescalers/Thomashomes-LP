@@ -16,7 +16,10 @@ export default function HeroForm({ headline }: { headline: string }) {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          source: typeof window !== 'undefined' ? window.location.pathname : 'unknown',
+        }),
       });
       if (!res.ok) throw new Error('Failed to send');
       setSubmitted(true);
