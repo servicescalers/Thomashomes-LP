@@ -40,7 +40,7 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-/* Yellowtail emphasis — hero (amber on dark bg) */
+/* Yellowtail emphasis - hero (amber on dark bg) */
 .emph-hero {
   display: block;
   font-family: var(--font-yellowtail, 'Yellowtail', cursive) !important;
@@ -55,7 +55,7 @@ details summary::-webkit-details-marker {
   margin-top: 6px;
 }
 
-/* Yellowtail emphasis — sections (red on white bg) */
+/* Yellowtail emphasis - sections (red on white bg) */
 .emph-section {
   display: block;
   font-family: var(--font-yellowtail, 'Yellowtail', cursive) !important;

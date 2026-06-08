@@ -20,7 +20,7 @@ const reviews = [
     date: '1 day ago',
     initials: 'TG',
     color: 'bg-blue-600',
-    body: 'Thomas Plumbing had me scheduled for a two hour window appointment the very next day. Delphi was extremely professional and knowledgeable — she did all the diagnostics and explained everything clearly. Thomas is lucky to have a technician that truly knows her stuff and took the extra mile to come up with the correct diagnosis.',
+    body: 'Thomas Plumbing had me scheduled for a two hour window appointment the very next day. Delphi was extremely professional and knowledgeable, she did all the diagnostics and explained everything clearly. Thomas is lucky to have a technician that truly knows her stuff and took the extra mile to come up with the correct diagnosis.',
   },
   {
     name: 'Diana West',

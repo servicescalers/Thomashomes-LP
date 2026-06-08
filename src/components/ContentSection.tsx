@@ -13,7 +13,7 @@ export default function ContentSection({ data }: { data: ContentSectionData }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
 
-          {/* Content — left */}
+          {/* Content - left */}
           <div className="flex flex-col justify-center">
             <h2 className="text-2xl sm:text-3xl font-semibold text-navy mb-6 leading-tight">
               {data.h2}
@@ -45,7 +45,7 @@ export default function ContentSection({ data }: { data: ContentSectionData }) {
             </div>
           </div>
 
-          {/* Image — right, full height of content */}
+          {/* Image - right, full height of content */}
           <div className="relative min-h-72 lg:min-h-0 rounded-2xl overflow-hidden shadow-xl order-first lg:order-last">
             <Image
               src={data.imageSrc}

@@ -72,7 +72,7 @@ export default function Nav() {
               />
             </Link>
 
-            {/* Nav links — desktop */}
+            {/* Nav links - desktop */}
             <nav className="hidden lg:flex items-center">
               {navLinks.map((link) => {
                 const active = pathname === link.href;
@@ -129,7 +129,7 @@ export default function Nav() {
           </div>
         </div>
 
-        {/* Active-link bottom border — sits flush under the nav */}
+        {/* Active-link bottom border - sits flush under the nav */}
         <div className="relative h-[3px] bg-gray-100">
           {navLinks.map((link) =>
             pathname === link.href ? (

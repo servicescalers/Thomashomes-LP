@@ -18,18 +18,18 @@ export async function POST(req: Request) {
       resend.emails.send({
         from: FROM,
         to: NOTIFY,
-        subject: `New Lead: ${name} — Thomas Home Services LP`,
+        subject: `New Lead: ${name}, Thomas Home Services LP`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:560px;margin:0 auto;background:#f9f9f9;padding:24px;border-radius:8px">
             <div style="background:#0A377B;padding:20px 24px;border-radius:6px 6px 0 0;margin:-24px -24px 24px">
-              <h1 style="color:#fff;font-size:22px;margin:0">New Lead — Thomas Home Services</h1>
+              <h1 style="color:#fff;font-size:22px;margin:0">New Lead, Thomas Home Services</h1>
               <p style="color:rgba(255,255,255,0.7);font-size:13px;margin:4px 0 0">Submitted via: <strong style="color:white">${source ?? 'unknown'}</strong></p>
             </div>
             <table style="width:100%;border-collapse:collapse">
               <tr><td style="padding:8px 0;border-bottom:1px solid #eee;color:#666;font-size:13px;width:100px">Name</td><td style="padding:8px 0;border-bottom:1px solid #eee;font-weight:bold;color:#0A377B">${name}</td></tr>
               <tr><td style="padding:8px 0;border-bottom:1px solid #eee;color:#666;font-size:13px">Phone</td><td style="padding:8px 0;border-bottom:1px solid #eee;font-weight:bold"><a href="tel:${phone}" style="color:#AF0000">${phone}</a></td></tr>
               <tr><td style="padding:8px 0;border-bottom:1px solid #eee;color:#666;font-size:13px">Email</td><td style="padding:8px 0;border-bottom:1px solid #eee"><a href="mailto:${email}" style="color:#AF0000">${email}</a></td></tr>
-              <tr><td style="padding:8px 0;color:#666;font-size:13px;vertical-align:top">Message</td><td style="padding:8px 0;color:#0A377B">${message || '—'}</td></tr>
+              <tr><td style="padding:8px 0;color:#666;font-size:13px;vertical-align:top">Message</td><td style="padding:8px 0;color:#0A377B">${message || '-'}</td></tr>
             </table>
             <div style="margin-top:24px;font-size:12px;color:#999;border-top:1px solid #eee;padding-top:16px">
               Thomas Home Services LP · thomashomeservices.com
@@ -42,7 +42,7 @@ export async function POST(req: Request) {
       resend.emails.send({
         from: FROM,
         to: email,
-        subject: 'We got your request — Thomas Home Services',
+        subject: 'We got your request, Thomas Home Services',
         html: `
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +85,7 @@ export async function POST(req: Request) {
                 <div style="width:22px;height:22px;background:#0A377B;border-radius:50%;display:inline-block;text-align:center;line-height:22px;font-weight:bold;font-size:12px;color:#fff">1</div>
               </td>
               <td style="padding-bottom:12px;padding-left:10px;color:#444;font-size:14px;line-height:1.5">
-                A Thomas team member will review your request and reach out by phone or email — usually within a few hours.
+                A Thomas team member will review your request and reach out by phone or email, usually within a few hours.
               </td>
             </tr>
             <tr>
@@ -101,7 +101,7 @@ export async function POST(req: Request) {
                 <div style="width:22px;height:22px;background:#0A377B;border-radius:50%;display:inline-block;text-align:center;line-height:22px;font-weight:bold;font-size:12px;color:#fff">3</div>
               </td>
               <td style="padding-left:10px;color:#444;font-size:14px;line-height:1.5">
-                Our licensed technician arrives — fully stocked, on time, and ready to help.
+                Our licensed technician arrives, fully stocked, on time, and ready to help.
               </td>
             </tr>
           </table>

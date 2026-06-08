@@ -3,7 +3,7 @@ import Image from 'next/image';
 const stats = [
   { value: '94.3%', label: '5-star customer satisfaction' },
   { value: '50,000+', label: 'Covered repairs completed' },
-  { value: '$95', label: 'Only deductible — ever' },
+  { value: '$95', label: 'Only deductible, ever' },
 ];
 
 const plans = [
@@ -36,7 +36,7 @@ const plans = [
 const differentiators = [
   {
     title: 'No Middle Man',
-    body: 'Unlike traditional warranty companies, Thomas handles every service call in-house — faster service, no blame game.',
+    body: 'Unlike traditional warranty companies, Thomas handles every service call in-house, faster service, no blame game.',
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
         <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
@@ -45,7 +45,7 @@ const differentiators = [
   },
   {
     title: 'Award-Winning Service',
-    body: 'Our own trained technicians show up — never a stranger. Treated with dignity and respect, every single time.',
+    body: 'Our own trained technicians show up, never a stranger. Treated with dignity and respect, every single time.',
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
@@ -54,7 +54,7 @@ const differentiators = [
   },
   {
     title: 'More Comprehensive',
-    body: 'No haggling over coverage limits. Hundreds of common repairs covered — less out-of-pocket cost for you.',
+    body: 'No haggling over coverage limits. Hundreds of common repairs covered, less out-of-pocket cost for you.',
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
@@ -105,7 +105,7 @@ export default function HomeWarranty() {
           </h2>
           <p className="text-body-text text-base max-w-2xl mx-auto leading-relaxed">
             One flat monthly fee covers hundreds of repairs across your plumbing, HVAC, electrical, and appliances.
-            You pay only a <strong>$95 deductible</strong> per service call — no trip charges, no labor fees, no surprises.
+            You pay only a <strong>$95 deductible</strong> per service call, no trip charges, no labor fees, no surprises.
           </p>
         </div>
 
@@ -182,7 +182,7 @@ export default function HomeWarranty() {
                       : 'bg-navy hover:bg-navy-dark text-white shadow-md hover:shadow-lg'
                   }`}
                 >
-                  Get Started — Call Us
+                  Get Started, Call Us
                 </a>
               </div>
             </div>

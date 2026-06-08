@@ -19,7 +19,7 @@ const yellowtail = Yellowtail({
 
 export const metadata: Metadata = {
   title: 'Thomas Home Services | Greater Phoenix Plumbing',
-  description: 'Thomas Home Services — Greater Phoenix plumbing since 1946. Drain cleaning, sewer repair, emergency plumbing. Call 480-279-5511.',
+  description: 'Thomas Home Services, Greater Phoenix plumbing since 1946. Drain cleaning, sewer repair, emergency plumbing. Call 480-279-5511.',
 };
 
 export default function RootLayout({

@@ -2,7 +2,7 @@ import type { LPData } from '@/types';
 
 const lp3: LPData = {
   slug: 'emergency-plumber',
-  pageTitle: 'Emergency Plumber in Greater Phoenix — Fast Response | Thomas Home Services',
+  pageTitle: 'Emergency Plumber in Greater Phoenix, Fast Response | Thomas Home Services',
   metaDescription: 'Plumbing emergency in Chandler or the East Valley? Thomas Home Services dispatches licensed plumbers fast. Live answering, same day service. Call now: 480-279-5511.',
   hero: {
     h1: 'Emergency Plumber in Greater Phoenix',
@@ -16,7 +16,7 @@ const lp3: LPData = {
     h2: 'A Plumbing Emergency Cannot Wait.',
     h2Emphasis: 'Neither Do We.',
     imageSrc: '/Leak_pipe.webp',
-    imageAlt: 'Burst pipe leaking water — emergency plumbing situation',
+    imageAlt: 'Burst pipe leaking water, emergency plumbing situation',
     paragraphs: [
       'Burst pipe. Sewage backup. Water spraying from a fitting. These are not problems you can schedule for next week. Thomas Home Services has been responding to plumbing emergencies across Greater Phoenix since 1946 and our team is built for exactly these situations. We answer live, dispatch fast, and carry the parts to fix most problems on the spot.',
       'When you call us with an emergency, a real person picks up and gets a technician headed your way. We prioritize urgent calls, especially when there is active water damage risk. Our plumbers arrive with stocked trucks, diagnose the problem quickly, and give you an honest price before doing anything.',
@@ -24,11 +24,11 @@ const lp3: LPData = {
   },
   servicesHeadline: 'Emergency Plumbing Services',
   services: [
-    { label: 'Burst Pipe Repair', description: 'We stop the leak fast and make a durable repair — most burst pipe emergencies are handled in a single visit.' },
+    { label: 'Burst Pipe Repair', description: 'We stop the leak fast and make a durable repair, most burst pipe emergencies are handled in a single visit.' },
     { label: 'Sewage Backup Response', description: 'Raw sewage backup is a health hazard. We respond fast, clear the blockage, and prevent it from recurring.' },
     { label: 'Active Leak Repair', description: 'We locate and fix leaks at joints, fittings, and supply lines before they cause serious water damage.' },
     { label: 'Emergency Shut-Off Service', description: 'We locate your main shut-off and replace faulty valves on the spot to stop water damage immediately.' },
-    { label: 'Toilet Overflow Clearing', description: 'Severe toilet overflows and deep clogs cleared quickly — including issues in the drain line below.' },
+    { label: 'Toilet Overflow Clearing', description: 'Severe toilet overflows and deep clogs cleared quickly, including issues in the drain line below.' },
     { label: 'Water Heater Emergency', description: 'No hot water or a leaking tank? We diagnose, repair, or replace your water heater the same day.' },
     { label: 'Garbage Disposal Emergency', description: 'We repair or replace disposals that have seized, stopped working, or are leaking under the sink.' },
     { label: 'Gas Line Emergency', description: 'We respond immediately to suspected gas line issues and coordinate with the utility if the situation requires it.' },

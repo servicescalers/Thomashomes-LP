@@ -20,7 +20,7 @@ export default function HowItWorks({ headline, imageSrc, imageAlt, steps }: Prop
 
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
 
-          {/* Steps — left */}
+          {/* Steps - left */}
           <div className="flex flex-col justify-center space-y-5">
             {steps.map((step, index) => (
               <div key={index} className="flex gap-5 group">
@@ -54,7 +54,7 @@ export default function HowItWorks({ headline, imageSrc, imageAlt, steps }: Prop
             </div>
           </div>
 
-          {/* Image — right, full height of steps */}
+          {/* Image - right, full height of steps */}
           <div className="relative min-h-72 lg:min-h-0 rounded-2xl overflow-hidden shadow-xl order-first lg:order-last">
             <Image
               src={imageSrc}

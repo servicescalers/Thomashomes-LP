@@ -8,7 +8,7 @@ interface Props {
 
 const trustPoints = [
   'Same day service available',
-  'Live answering — no bots',
+  'Live answering, no bots',
   'Upfront pricing before we start',
   '100% Satisfaction Guaranteed',
 ];
